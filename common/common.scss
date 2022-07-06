@@ -29,6 +29,8 @@ aside.quote.accepted-answer {
     background-color: #{$blockquote_background};
   }
 }
+// change solution button color
 .post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
   color: #{$solution_button_color_at_post};
+  opacity: 1;
 }
