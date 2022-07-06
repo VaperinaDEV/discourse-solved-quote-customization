@@ -26,3 +26,7 @@ border_radius:
   type: string
   default: "0px"
   description: "You can make the corners rounded if increase the value. For example: 8px or 0.5em etc."
+solution_button_color_at_post:
+  type: string
+  default: "#008000"
+  description: "Change the color of the 'marked as solution' button at the respective post. "
