@@ -30,5 +30,5 @@ aside.quote.accepted-answer {
   }
 }
 .post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
-  color: #{$blockquote_border_color};
+  color: #{$solution_button_color_at_post};
 }
