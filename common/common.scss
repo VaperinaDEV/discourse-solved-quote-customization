@@ -28,7 +28,7 @@ aside.quote.accepted-answer {
     border-radius: 0 0 #{$border_radius} #{$border_radius};
     background-color: #{$blockquote_background};
   }
-  > .post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
-    color: #{$blockquote_border_color};
 }
+.post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
+  color: #{$blockquote_border_color};
 }
