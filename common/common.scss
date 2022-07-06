@@ -1,0 +1,31 @@
+aside.quote.accepted-answer {
+  > .title {
+    padding: 12px;
+    background: #{$title_background};
+    border: 3px solid #{$blockquote_border_color};
+    color: #{$title_color};
+    border-bottom: 0;
+    border-radius: #{$border_radius} #{$border_radius} 0 0;
+    .fa.accepted {
+      color: #{$accepted_icon_color};
+    }
+    span.by {
+      a {
+        color: #{$solved_by_text_color};
+        text-decoration: underline;
+      }
+    }
+    a {
+      color: #{$post_link_color};
+      text-decoration: underline;
+    }
+    .quote-controls .d-icon {
+      color: #{$chevron_down_icon_color};
+    }
+  }
+  > blockquote {
+    border: 3px solid #{$blockquote_border_color};
+    border-radius: 0 0 #{$border_radius} #{$border_radius};
+    background-color: #{$blockquote_background};
+  }
+}

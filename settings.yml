@@ -1,0 +1,28 @@
+title_background:
+  type: string
+  default: "#008000"
+title_color:
+  type: string
+  default: "#ffffff"
+accepted_icon_color:
+  tyoe: string
+  default: "#ffffff"
+solved_by_text_color:
+  type: string
+  default: "#ffffff"
+post_link_color:
+  type: string
+  default: "#ffffff"
+chevron_down_icon_color:
+  type: string
+  default: "#ffffff"
+blockquote_background:
+  type: string
+  default: "var(--blend-primary-secondary-5)"
+blockquote_border_color:
+  type: string
+  default: "#008000"
+border_radius:
+  type: string
+  default: "0px"
+  description: "You can make the corners rounded if increase the value. For example: 8px or 0.5em etc."
